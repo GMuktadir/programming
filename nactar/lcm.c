@@ -46,7 +46,7 @@ int main()
     L=a;
  else
     L=b;
-printf("1.GCD\n2.LCM\n->");
+printf("1.GCD\n 2.LCM\n->");
 menu:
 scanf("%d",&m);
 switch(m)
