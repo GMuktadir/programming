@@ -3,7 +3,7 @@
 #include<stdio.h>
 void gcd(int L,int a,int b)
 {
-        while(2)
+        while(1)
         {
             if(a%L==0 && b%L==0)
              {
@@ -20,9 +20,9 @@ void gcd(int L,int a,int b)
 int main()
 {
  int a,b,L;
- printf("Enter Divisor: ");
+ printf("Enter First Name:");
  scanf("%d",&a);
- printf("Enter Dividend: ");
+ printf("Enter Second Name:");
  scanf("%d",&b);
 
  if(a<b)
