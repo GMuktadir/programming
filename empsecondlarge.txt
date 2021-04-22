@@ -1,0 +1,5 @@
+Employee based on Second Largest Salary
+==============================================
+Name	Post	Salary
+===========================
+Rana	SE	100000
