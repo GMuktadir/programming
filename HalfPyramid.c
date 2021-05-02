@@ -3,6 +3,9 @@
 //GM| 04/04/2020
 int main(){
     int i,j;
+    int capital_letter='A';
+    int small_letter='a';
+
     //row=i,col=j
     printf("\n=====Half Pyramid======\n");
     //Half Pyramid
@@ -19,6 +22,16 @@ int main(){
         }
         printf("\n");
     }
+
+    printf("\n=====Half Pyramid (Capital Letter)======\n");
+     for(i=1;i<=N;i++){
+        for(j=1;j<=i;j++){
+            printf("%c",capital_letter); // test print j
+        }
+        capital_letter++;
+        printf("\n");
+    }
+
 
     printf("\n=====Inverted Half Pyramid======\n");
    //Inverted Half Pyramid
