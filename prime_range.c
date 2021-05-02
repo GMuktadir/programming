@@ -26,6 +26,8 @@ printf("Enter Second Number of the range:\n");
 scanf("%d",&r2);
 PrimeRange(r1,r2);
 
-
+printf("\n");
+printf("\n");
+printf("\n");
 return 0;
 }
