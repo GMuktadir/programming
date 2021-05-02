@@ -1,5 +1,5 @@
 
-#include<stdalign.h>
+#include<stdio.h>
 int PrimeCons(int start,int frequency)
 {
     int flag,cnt;
