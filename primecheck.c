@@ -1,4 +1,4 @@
-#include<stdalign.h>
+#include<stdio.h>
 int main(){
     int n,flag=0;
     printf("Enter a number to check prime or not:");
