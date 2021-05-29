@@ -3,9 +3,13 @@
 // GM | 03-05-2021
 void CharCount(char ch[50])
 {
-    int cnt;
+    int cnt,cnt_other=0;
     for(cnt=0;ch[cnt]!='\0';cnt++){}
-    printf("\n char: %d char",cnt);
+    printf("\nTotal char: %d",cnt);
+    if(ch[cnt]>=65 && ch[cnt]<=90 || ch[cnt]>=97 && ch[cnt]<=122 ||ch[cnt]>=48 && ch[cnt]<=57){}
+    else
+      cnt_other++;
+    printf("\nOther: %d",cnt_other);
 
 }
 void WordCount(char st[MAXSIZE])
@@ -18,7 +22,7 @@ void WordCount(char st[MAXSIZE])
         }
 
     }
-    printf("\nWord: %d ",word+1);
+    printf("\nWord: %d",word+1);
 }
 void LineCount(char st[MAXSIZE]){
     int cnt,line=0;
@@ -30,7 +34,7 @@ void LineCount(char st[MAXSIZE]){
 
 
     }
-    printf("\n Line: %d",line);
+    printf("\nLine: %d",line);
 }
 void AlphabetCount(char st[MAXSIZE]){
     int cnt,alphabet=0;
@@ -48,7 +52,7 @@ void DigitCount(char st[MAXSIZE]){
       if(st[cnt]>=48 && st[cnt]<=57)
         digit++;
     }
-    printf("\n Digit: %d ",digit);
+    printf("\nDigit: %d ",digit);
 }
 int main()
 {

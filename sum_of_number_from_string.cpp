@@ -10,14 +10,14 @@ int main()
   //Remove all char from string except alphabet
   for(int i=0;i<st.size();++i)
   {
-      if(st[i]>=48 && st[i]>=57)
+      if(st[i]>=48 && st[i]<=57)
       {
-          sum+=st[i]p-'0';
+          sum+=st[i]-'0';
       }
 
   }
 
-  cout<<"Summation of number from the string"<<st<<" :";
+  cout<<"Summation of number from the string:["<<st<<"] :"<<sum  ;
     cout<<st;
 
 

@@ -40,3 +40,4 @@ int main()
 }
 //input zyxwvutsrqponmlkjihgfedcba
 // dhaka1207
+//https://dyclassroom.com/c/c-pointers-and-strings
